@@ -8,4 +8,7 @@ describe("test getClothingSuggestion", function() {
   let clothing = getClothingSuggestion(humidity, temperature)
   expect (clothing).toBe("Use rain jacket");
   });
+
+
+
 });
