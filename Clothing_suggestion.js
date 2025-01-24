@@ -1,5 +1,5 @@
 // File: Clothing_suggestion.js
-export function getClothingSuggestion(temperature, humidity) {
+function getClothingSuggestion(temperature, humidity) {
     if (temperature > 30 && humidity > 70) {
         return "Wear light, breathable clothes.";
     } else if (temperature > 20 && humidity > 60) {
@@ -10,4 +10,5 @@ export function getClothingSuggestion(temperature, humidity) {
         return "Bundle up, it's cold.";
     }
 }
+export {getClothingSuggestion} 
 

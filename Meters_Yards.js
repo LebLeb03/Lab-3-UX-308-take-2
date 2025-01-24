@@ -1,4 +1,6 @@
 function convertMetersToYards(meters) {
-    const yards = meters * 1.09361; // Conversion factor
+    let yards = meters * 1.09361 // Conversion factor
     return yards;
 }
+
+export {convertMetersToYards}
