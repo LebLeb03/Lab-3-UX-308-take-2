@@ -1,4 +1,4 @@
-import {calculateCubeVolume} from ".../calculateCubeVolume.js";
+import {calculateCubeVolume} from "../Cube.js";
 
 describe("tests calculateCubeVolume", function () {
     it("Volume for edge length 3 meters", function () {
